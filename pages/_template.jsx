@@ -40,6 +40,9 @@ module.exports = React.createClass({
                             <li className="nav-item">
                                 <Link to={prefixLink('/contact-us/')} className="nav-link">Contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to={prefixLink('/blog/')} className="nav-link">Blog</Link>
+                            </li>
                           </ul>
                         </nav>
               
@@ -72,7 +75,7 @@ module.exports = React.createClass({
 
                 <div className="row">
         	        <div className="sigma-copyright col-lg-8">
-            	        <p>Copyright &copy; 2016 Ceenq Cloud Solutions, Inc.</p>
+            	        <p>Copyright &copy; 2016 Ceenq Cloud Solutions, Inc. <Link to={prefixLink('/terms-of-service/')} className="nav-link">terms of service</Link></p>
                     </div>
             
                     <div className="sigma-copyright col-lg-4 single-page-nav text-right">
