@@ -38,10 +38,16 @@ module.exports = React.createClass({
                                 <Link to={prefixLink('/about-us/')} className="nav-link">Company</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to={prefixLink('/demo/')} className="nav-link">Demo</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to={prefixLink('/contact-us/')} className="nav-link">Contact</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to={prefixLink('/blog/')} className="nav-link">Blog</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to={prefixLink('/support/')} className="nav-link">Support</Link>
                             </li>
                           </ul>
                         </nav>
