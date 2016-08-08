@@ -18,7 +18,7 @@ export default class Sass extends React.Component {
             <div className="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
                 <h1>The world wide web is your oyster</h1>
                 <Link to={prefixLink('/contact-us/')} className="btn btn-danger sigma-start">Get Started</Link>
-                <Link to={prefixLink('/faq/')} className="btn btn-success sigma-start">Learn More</Link>
+                <Link to={prefixLink('/features/')} className="btn btn-success sigma-start">Features</Link>
             </div>
 
         </div>
