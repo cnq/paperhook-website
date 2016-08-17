@@ -42,6 +42,10 @@
   "main": "n/a",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "global-js": "babel-node ./js/all.js",
+    "prestart": "npm run global-js",
+    "start": "gatsby develop",
+    "prebuild": "npm run global-js"
   }
 }
