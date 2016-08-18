@@ -12,88 +12,113 @@ module.exports = React.createClass({
   },
   render () {
       return (
-    <div>
-        <header id="top">
-
-	        <div className="container-fluid">
-    
-                <div className="row">
-        
-                    <div className="col-lg-4 col-md-12 site-title">
-                        <h1>
-                            <Link to={prefixLink('/')} >
-                              Paperhook
-                            </Link>
-                        </h1>
-                    </div>
-            
-                    <div className="col-lg-8 col-md-12 main-menu">
-                
-                        <nav className="navbar navbar-light">
-                          <ul className="nav navbar-nav single-page-nav">
-                            <li className="nav-item">
-                                <Link to={prefixLink('/faq/')} className="nav-link">Resources</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to={prefixLink('/about-us/')} className="nav-link">Company</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to={prefixLink('/demo/')} className="nav-link">Demo</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to={prefixLink('/contact-us/')} className="nav-link">Contact</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to={prefixLink('/blog/')} className="nav-link">Blog</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to={prefixLink('/support/')} className="nav-link">Support</Link>
-                            </li>
-                          </ul>
-                        </nav>
-              
-                    </div>
-            
-                </div>
-        
-                <div className="row">
-                    <div className="col-md-12">
-            	        <hr className="sigma-hr"/>
-                    </div>
-                </div>
-
-            </div>
-    
-        </header>
-        <div>
-          {this.props.children}
-        </div>
-        
-        <footer>
-
-	        <div className="container-fluid">
-    
-    	        <div className="row">
-                    <div className="col-md-12">
-            	        <hr className="sigma-hr"/>
-                    </div>
-                </div>
-
-                <div className="row">
-        	        <div className="sigma-copyright col-lg-8">
-            	        <p>Copyright &copy; 2016 Ceenq Cloud Solutions, Inc. <Link to={prefixLink('/terms-of-service/')} className="nav-link">terms of service</Link></p>
-                    </div>
-            
-                    <div className="sigma-copyright col-lg-4 single-page-nav text-right">
-            	        <p><a href="#top">Go to top</a></p>
-                    </div>
-                </div>
-        
-            </div>   
-
-        </footer>
-
+  <div className="page js-page ">
+    {/*header*/}
+    <div className="header header-over large">
+      <div className="container-fluid">
+              <div className="row">
+					<div className="col-md-4 col-sm-4 col-xs-4">
+					</div>
+					<div className="col-md-4 col-sm-4 col-xs-4">
+						<div className="helper center">
+							<a href="index.html" className="logo-image logo-animated">
+								<img src="img/logos/logo.png" alt="logo"/>
+							</a>
+						</div>
+					</div>
+					<div className="col-md-4 col-sm-4 col-xs-4">
+      {
+                  //<!-- Search Area -->
+                  //<div class="search-minimal js-search-minimal">
+                  //	<form action="#">
+                  //		<div class="search-minimal-input js-search-minimal-input">
+                  //			<input type="text"> </div>
+                  //		<i class="fa fa-search search-minimal-icon js-search-minimal-icon"></i>
+                  //	</form>
+                  //</div>
+              }
+					</div>
+				</div>
       </div>
+    </div>
+    <div className="header-back header-back-default header-back-full-page js-full-page">
+      <div className="header-back-container">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              
+              <div className="page-info helper center">
+                <h1 className="page-title">Web Marketing With Ease</h1>
+                <h2 className="page-description">The world wide web is your oyster</h2>
+              </div>
+              <div className="header-back-buttons helper center">
+                <Link to={prefixLink('/contact-us/')} className="button large blue">Get Started</Link>
+                <Link to={prefixLink('/features/')} className="button large green">Features</Link>
+			   </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    {this.props.children}
+    
+    
+    {/*footer*/}
+    <footer className="js-footer-is-fixed">
+
+      <div className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3 col-sm-3 col-xs-12">
+              <div className="footer-logo-wrapper">
+                
+                <a href="index.html" className="logo-image ">
+                  <img src="img/logos/logo.png" alt="logo"/>
+								</a>
+                
+                
+                <p className="slogan">
+                  Learn.
+                  <br/>
+                    Create.
+                    <br/>Impress. </p>
+                
+              </div>
+            </div>
+            <div className="col-md-9 col-sm-9 col-xs-12">
+							<div className="footer-wrapper">
+								<span className="scroll-top js-scroll-top">
+									<i className="fa fa-angle-up"></i>
+								</span>
+								<ul className="footer-menu helper right">
+									<li>
+										<a href="#"> About us </a>
+									</li>
+									<li>
+										<a href="#"> Privacy Policy </a>
+									</li>
+									<li>
+										<a href="#"> Terms &amp; Condotions </a>
+									</li>
+									<li>
+										<a href="#"> My account </a>
+									</li>
+									<li>
+										<a href="#"> Support service </a>
+									</li>
+								</ul>
+								<p className="copyright helper right">
+									Ceenq Cloud Solutions, Inc., all rights reserved. 2016 © </p>
+							</div>
+						</div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    
+  </div>
     )
   },
 })

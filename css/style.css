@@ -1288,13 +1288,13 @@ th {
   box-sizing: border-box;
 }
 .background-2 {
-  background: url(../img/backgrounds/2.jpg);
+  background: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/2.jpg);
 }
 .background-4 {
-  background: url(../img/backgrounds/4.jpg);
+  background: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/4.jpg);
 }
 .background-5 {
-  background: url(../img/backgrounds/5.jpg);
+  background: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/5.jpg);
 }
 .background-gradient-grey {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+95,f2f2f2+95,f2f2f2+100 */
@@ -7743,37 +7743,37 @@ Copyright (c) 2015 Daniel Eden
   padding-bottom: 40px;
 }
 .header-back-default {
-  background-image: url(../img/backgrounds/6.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/6.jpg);
   background-position: bottom;
 }
 .header-back-simple {
-  background-image: url(../img/backgrounds/2.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/2.jpg);
 }
 .header-back-bg {
-  background-image: url(../img/backgrounds/1.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/1.jpg);
 }
 .header-back-bg-2 {
-  background-image: url(../img/backgrounds/3.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/3.jpg);
 }
 .header-back-bg-3 {
-  background-image: url(../img/backgrounds/5.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/5.jpg);
 }
 .header-back-bg-web {
-  background-image: url(../img/backgrounds/8.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/8.jpg);
 }
 .header-back-bg-app {
-  background-image: url(../img/backgrounds/9.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/9.jpg);
 }
 .header-back-bg-soft {
-  background-image: url(../img/backgrounds/10.png);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/10.png);
   background-position: center bottom;
 }
 .header-back-video-trigger-bg {
-  background-image: url(../img/backgrounds/11.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/11.jpg);
   background-position: center bottom;
 }
 .header-back-bg-subscribe {
-  background-image: url(../img/backgrounds/12.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/12.jpg);
 }
 .header-back-buttons .button {
   margin-right: 20px;
@@ -15984,7 +15984,7 @@ input.changelog-input {
 .call-to-action {
   padding: 80px 0;
   background-size: cover;
-  background-image: url('../img/backgrounds/7.jpg');
+  background-image: url('img/backgrounds/7.jpg');
   text-align: center;
 }
 .call-to-action-title {
@@ -17113,7 +17113,7 @@ input.changelog-input {
 .video-section {
   border-top: 1px solid #e9eaec;
   border-bottom: 1px solid #e9eaec;
-  background-image: url(../img/backgrounds/13.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/13.jpg);
   background-position: center;
   background-size: cover;
   padding: 20% 0;
@@ -17490,7 +17490,7 @@ input.changelog-input {
   }
 }
 .page-404 {
-  background-image: url(../img/backgrounds/14.jpg);
+  background-image: url(https://rawgit.com/cnq/paperhook-website/dev/restyle/img/backgrounds/14.jpg);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
