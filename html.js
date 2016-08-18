@@ -13,11 +13,6 @@ module.exports = React.createClass({
     render () {
         const title = DocumentTitle.rewind()
 
-        let cssLink
-        if (process.env.NODE_ENV === 'production') {
-            cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />
-            }
-
         return (
     <html lang="en">
     <head>
@@ -39,14 +34,13 @@ module.exports = React.createClass({
         <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png"/>
         <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png"/>
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png"/>
-
-      {cssLink}
+        <link rel="stylesheet" href="http://rawgit.com/cnq/paperhook-website/dev/restyle/css/style.css" />
       </head>
     <body cssClass="">
       <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink('/bundle.js')} />
-          <script src="https://rawgit.com/cnq/paperhook-website/dev/restyle/js/all.js"></script>
-          <script src="https://rawgit.com/cnq/paperhook-website/dev/restyle/js/custom.js"></script>
+          <script src="http://rawgit.com/cnq/paperhook-website/dev/restyle/js/all.js"></script>
+          <script src="http://rawgit.com/cnq/paperhook-website/dev/restyle/js/custom.js"></script>
         </body>
       </html>
     )

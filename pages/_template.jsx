@@ -21,7 +21,7 @@ module.exports = React.createClass({
 					</div>
 					<div className="col-md-4 col-sm-4 col-xs-4">
 						<div className="helper center">
-							<a href="index.html" className="logo-image logo-animated">
+							<a href="/" className="logo-image logo-animated">
 								<img src="img/logos/logo.png" alt="logo"/>
 							</a>
 						</div>
@@ -53,7 +53,7 @@ module.exports = React.createClass({
               </div>
               <div className="header-back-buttons helper center">
                 <Link to={prefixLink('/contact-us/')} className="button large blue">Get Started</Link>
-                <Link to={prefixLink('/features/')} className="button large green">Features</Link>
+                    <a className="button large green js-one-page-nav" href="#features">Features</a>
 			   </div>
             </div>
           </div>
