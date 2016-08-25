@@ -34,7 +34,9 @@ module.exports = React.createClass({
         <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png"/>
         <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png"/>
         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png"/>
-        <link rel="stylesheet" href="http://rawgit.com/cnq/paperhook-website/dev/restyle/css/style.css" />
+        <link rel="stylesheet" href="http://rawgit.com/cnq/paperhook-website/dev/restyle/css/style.css?v=0" />
+        <link rel="stylesheet" href="http://rawgit.com/cnq/paperhook-website/dev/restyle/css/custom.css?v=0" />
+        <link href="https://fonts.googleapis.com/css?family=Megrim|Roboto+Mono:100,400,700" rel="stylesheet"/>
       </head>
     <body cssClass="">
       <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
