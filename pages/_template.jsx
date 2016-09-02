@@ -14,33 +14,39 @@ module.exports = React.createClass({
       return (
   <div className="page js-page ">
     {/*header*/}
+
     <div className="header header-over large">
-      <div className="container-fluid">
-              <div className="row">
-					<div className="col-md-4 col-sm-4 col-xs-4">
-					</div>
-					<div className="col-md-4 col-sm-4 col-xs-4">
-						<div className="helper center">
-							<a href="/" className="logo-image logo-animated">
-								<img src="img/logos/logo.png" alt="logo"/>
-							</a>
-						</div>
-					</div>
-					<div className="col-md-4 col-sm-4 col-xs-4">
-      {
-                  //<!-- Search Area -->
-                  //<div class="search-minimal js-search-minimal">
-                  //	<form action="#">
-                  //		<div class="search-minimal-input js-search-minimal-input">
-                  //			<input type="text"> </div>
-                  //		<i class="fa fa-search search-minimal-icon js-search-minimal-icon"></i>
-                  //	</form>
-                  //</div>
-              }
-					</div>
-				</div>
-      </div>
+ 
+  <div className="container-fluid">
+          <div className="row">
+ 			<div className="col-md-4 col-sm-4 col-xs-4">
+ 			</div>
+ 			<div className="col-md-4 col-sm-4 col-xs-4">
+                 {
+                     //<div className="helper center">
+                     //	<a href="/" className="logo-image logo-animated">
+                     //		<img src="/img/logos/logo.png" alt="logo"/>
+                     //	</a>
+                     //</div>
+                 }
+ 			</div>
+ 			<div className="col-md-4 col-sm-4 col-xs-4">
+        {
+            //<div class="search-minimal js-search-minimal">
+            //	<form action="#">
+            //		<div class="search-minimal-input js-search-minimal-input">
+            //			<input type="text"> </div>
+            //		<i class="fa fa-search search-minimal-icon js-search-minimal-icon"></i>
+            //	</form>
+            //</div>
+        }
+          
+ 			</div>
+ 		</div>
+  </div>
+ 
     </div>
+
     <div className="header-back header-back-default header-back-full-page js-full-page">
       <div className="header-back-container">
         <div className="container">
@@ -48,12 +54,14 @@ module.exports = React.createClass({
             <div className="col-md-12">
               
               <div className="page-info helper center">
-                <h1 className="page-title">Web Marketing With Ease</h1>
-                <h2 className="page-description">The world wide web is your oyster</h2>
+                <h1 className="page-title">Paperhook</h1>
+                <h2 className="page-description">Connecting Your Content</h2>
               </div>
               <div className="header-back-buttons helper center">
-                <Link to={prefixLink('/contact-us/')} className="button large blue">Get Started</Link>
-                    <a className="button large green js-one-page-nav" href="#features">Features</a>
+                  {
+                      //<span className="button large blue js-scroll-to" data-target="#join">Get Started</span>
+                  }
+                    <a className="button large blue" href="mailto:info@cnq.io" target="_top">Get Started</a>
 			   </div>
             </div>
           </div>
@@ -73,16 +81,16 @@ module.exports = React.createClass({
             <div className="col-md-3 col-sm-3 col-xs-12">
               <div className="footer-logo-wrapper">
                 
-                <a href="index.html" className="logo-image ">
-                  <img src="img/logos/logo.png" alt="logo"/>
+                <a href="index.html" className="logo-image logo-small">
+                  <img src="/img/logos/logo.png" alt="logo"/>
 								</a>
                 
                 
                 <p className="slogan">
-                  Learn.
+                  Connect.
                   <br/>
-                    Create.
-                    <br/>Impress. </p>
+                    Your.
+                    <br/>Content. </p>
                 
               </div>
             </div>
@@ -91,25 +99,18 @@ module.exports = React.createClass({
 								<span className="scroll-top js-scroll-top">
 									<i className="fa fa-angle-up"></i>
 								</span>
-								<ul className="footer-menu helper right">
-									<li>
-										<a href="#"> About us </a>
-									</li>
-									<li>
-										<a href="#"> Privacy Policy </a>
-									</li>
-									<li>
-										<a href="#"> Terms &amp; Condotions </a>
-									</li>
-									<li>
-										<a href="#"> My account </a>
-									</li>
-									<li>
-										<a href="#"> Support service </a>
-									</li>
-								</ul>
+									{
+									    //<ul className="footer-menu helper right">
+									    //	<li>
+									    //		<a href="/contact-us/"> CONTACT US </a>
+									    //	</li>
+									    //    <li>
+									    //		<a href="/faq/"> FAQ </a>
+									    //	</li>
+									    //</ul>
+									}
 								<p className="copyright helper right">
-									Ceenq Cloud Solutions, Inc., all rights reserved. 2016 © </p>
+									Ceenq Cloud Solutions, Inc., all rights reserved. 2016 &copy; </p>
 							</div>
 						</div>
           </div>

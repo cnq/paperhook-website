@@ -8,3 +8,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
 }
+.page-title {
+    font-family: 'Megrim', cursive;
+}
+.logo-image img {
+    height: 100px;
+}
+.logo-small img {
+    height: 40px;
+}
