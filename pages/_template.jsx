@@ -61,7 +61,7 @@ module.exports = React.createClass({
                   {
                       //<span className="button large blue js-scroll-to" data-target="#join">Get Started</span>
                   }
-                    <a className="button large blue" href="mailto:info@cnq.io" target="_top">Get Started</a>
+                    <a className="button large" href="mailto:info@cnq.io" target="_top">Get Started</a>
 			   </div>
             </div>
           </div>
